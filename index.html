@@ -1,12 +1,426 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <div class="logo">Abdelrahman</div>
+        <ul class="nav-links">
+          <li class="active">Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Projects</li>
+          <li>Resume</li>
+        </ul>
+        <button class="contact">Contact</button>
+        <button class="toggle">
+          <img src="./assets/icons/toggle.png" alt="" />
+        </button>
+        <button class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+      <div class="home-section">
+        <img
+          class="profile-img"
+          src="./assets/images/abdelrahman.jpeg"
+          alt="profile"
+        />
+        <h1>Abdelrahman Elgebaly</h1>
+        <h4>Full Stack Developer|</h4>
+        <p>
+          Passionate about building robust, scalable, and high-performance full
+          stack web applications. I specialize in the MERN stack (MongoDB,
+          Express, React, Node.js) and love turning complex challenges into
+          simple, elegant, and user-centric solutions.
+        </p>
+        <button>Contact Me</button>
+      </div>
+      <div class="about-section">
+        <h2>About Me</h2>
+        <p>Get to know me</p>
+        <p>
+          I'm a passionate Full Stack Developer specializing in the MERN stack
+          with experience building complete, secure, and production-ready web
+          applications. I enjoy designing scalable database models, creating
+          performant REST APIs, and crafting responsive, user-friendly frontend
+          interfaces that make a difference.
+        </p>
+        <p>
+          I believe in writing clean, well-documented code, designing robust
+          software architectures, and continuously adopting modern software
+          engineering patterns. Whether architecting database schemas or styling
+          interfaces, I focus on performance, scalability, and providing an
+          exceptional user experience.
+        </p>
+        <p>
+          Let's work together to transform your ideas into robust, scalable web
+          applications that drive real results. Get in touch, and let's start
+          building your digital vision today!
+        </p>
+        <button>Download Resume</button>
+      </div>
+      <div class="services-section">
+        <h2>What I do</h2>
+        <p>My Services</p>
+
+        <div class="services-cards">
+          <div class="card card1">
+            <img class="icon" src="./assets/icons/Vector.png" alt="sun icon" />
+            <h4>Web Development</h4>
+            <p>
+              Building modern, responsive websites and web applications using
+              the latest technologies and best practices.
+            </p>
+          </div>
+          <div class="card card2">
+            <img class="icon" src="./assets/icons/Vector.png" alt="sun icon" />
+            <h4>UI/UX Design</h4>
+            <p>
+              Creating intuitive and beautiful user interfaces that enhance user
+              experience and drive engagement.
+            </p>
+          </div>
+          <div class="card card3">
+            <img class="icon" src="./assets/icons/Vector.png" alt="sun icon" />
+            <h4>Backend Development</h4>
+            <p>
+              Developing robust and secure backend systems, RESTful API
+              integrations, and database architectures.
+            </p>
+          </div>
+          <div class="card4">
+            <div class="left-side">
+              <img
+                class="icon"
+                src="./assets/icons/ai_aicon.png"
+                alt="sun icon"
+              />
+              <h4>Mobile-First Design</h4>
+              <p>
+                Creating websites that look and work perfectly on all devices,
+                with mobile as the primary focus. Creating websites that look
+                and work perfectly on all devices, with mobile as the primary
+                focus. Creating websites that look and work perfectly on all
+                devices, with mobile as the primary focus.
+              </p>
+            </div>
+            <img
+              class="card-4-img"
+              src="./assets/images/card-4.png"
+              alt="card-4"
+            />
+          </div>
+          <div class="card card5">
+            <img
+              class="icon"
+              src="./assets/icons/carbon_machine-learning.png"
+              alt="sun icon"
+            />
+            <h4>Maintenance & Support</h4>
+            <p>
+              Providing ongoing maintenance, updates, and technical support for
+              existing websites and applications.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="projects-section">
+        <h2>My Projects</h2>
+        <p>Some of my Work</p>
+        <ul class="projects-nav">
+          <li class="active">Front-End</li>
+          <li>Back-End</li>
+          <li>Databases</li>
+          <li>Full-Stack</li>
+          <li>AI/LLMs</li>
+        </ul>
+        <div class="projects-cards">
+          <div class="project-card1 project-card">
+            <img
+              class="project-img"
+              src="./assets/images/project.png"
+              alt="project"
+            />
+            <div class="project-des">
+              <div class="text">
+                <h3>E-commerce Application</h3>
+                <p>
+                  A scalable multilingual admin dashboard designed to manage
+                  international e-commerce operations, featuring dynamic content
+                  control, financial reporting, and region-based system
+                  architecture.
+                </p>
+              </div>
+              <svg
+                class="arrow"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="24" cy="24" r="24" fill="#4FC3F7" />
+
+                <path
+                  d="M17 31L31 17M31 17H20M31 17V28"
+                  stroke="white"
+                  stroke-width="3.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="project-card2 project-card">
+            <img
+              class="project-img"
+              src="./assets/images/project.png"
+              alt="project"
+            />
+            <div class="project-des">
+              <div class="text">
+                <h3>E-commerce Application</h3>
+                <p>
+                  A scalable multilingual admin dashboard designed to manage
+                  international e-commerce operations, featuring dynamic content
+                  control, financial reporting, and region-based system
+                  architecture.
+                </p>
+              </div>
+              <svg
+                class="arrow"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="24" cy="24" r="24" fill="#4FC3F7" />
+
+                <path
+                  d="M17 31L31 17M31 17H20M31 17V28"
+                  stroke="white"
+                  stroke-width="3.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="project-card3 project-card">
+            <img
+              class="project-img"
+              src="./assets/images/project.png"
+              alt="project"
+            />
+            <div class="project-des">
+              <div class="text">
+                <h3>E-commerce Application</h3>
+                <p>
+                  A scalable multilingual admin dashboard designed to manage
+                  international e-commerce operations, featuring dynamic content
+                  control, financial reporting, and region-based system
+                  architecture.
+                </p>
+              </div>
+              <svg
+                class="arrow"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="24" cy="24" r="24" fill="#4FC3F7" />
+
+                <path
+                  d="M17 31L31 17M31 17H20M31 17V28"
+                  stroke="white"
+                  stroke-width="3.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="project-card4 project-card">
+            <img
+              class="project-img"
+              src="./assets/images/project.png"
+              alt="project"
+            />
+            <div class="project-des">
+              <div class="text">
+                <h3>E-commerce Application</h3>
+                <p>
+                  A scalable multilingual admin dashboard designed to manage
+                  international e-commerce operations, featuring dynamic content
+                  control, financial reporting, and region-based system
+                  architecture.
+                </p>
+              </div>
+              <svg
+                class="arrow"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="24" cy="24" r="24" fill="#4FC3F7" />
+
+                <path
+                  d="M17 31L31 17M31 17H20M31 17V28"
+                  stroke="white"
+                  stroke-width="3.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="project-card5 project-card">
+            <img
+              class="project-img"
+              src="./assets/images/project.png"
+              alt="project"
+            />
+            <div class="project-des">
+              <div class="text">
+                <h3>E-commerce Application</h3>
+                <p>
+                  A scalable multilingual admin dashboard designed to manage
+                  international e-commerce operations, featuring dynamic content
+                  control, financial reporting, and region-based system
+                  architecture.
+                </p>
+              </div>
+              <svg
+                class="arrow"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="24" cy="24" r="24" fill="#4FC3F7" />
+
+                <path
+                  d="M17 31L31 17M31 17H20M31 17V28"
+                  stroke="white"
+                  stroke-width="3.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="project-card6 project-card">
+            <img
+              class="project-img"
+              src="./assets/images/project.png"
+              alt="project"
+            />
+            <div class="project-des">
+              <div class="text">
+                <h3>E-commerce Application</h3>
+                <p>
+                  A scalable multilingual admin dashboard designed to manage
+                  international e-commerce operations, featuring dynamic content
+                  control, financial reporting, and region-based system
+                  architecture.
+                </p>
+              </div>
+              <svg
+                class="arrow"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="24" cy="24" r="24" fill="#4FC3F7" />
+
+                <path
+                  d="M17 31L31 17M31 17H20M31 17V28"
+                  stroke="white"
+                  stroke-width="3.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+          <button class="view-all">View All</button>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h2>My Projects</h2>
+        <p>Some of my Work</p>
+        <form action="submit" method="post">
+          <label for="name">Name</label>
+          <input name="name" type="text" />
+
+          <label for="email">Email</label>
+          <input name="email" type="text" />
+          <label for="services">Services</label>
+          <select name="Services" id="services" class="services">
+            <option value="services" selected disabled>Select A Service</option>
+            <option value="full-stack">full-stck</option>
+            <option value="frontend">frontend</option>
+            <option value="backend">backend</option>
+          </select>
+          <label for="message">Message</label>
+          <textarea name="message" class="message"></textarea>
+          <button class="get-in-touch">Get In Touch</button>
+        </form>
+      </div>
+      <div class="gmail-section">
+        <h2>Let’s Work Together -</h2>
+        <button>
+          <img src="./assets/icons/gmail.png" alt="gmail-icon" />
+          <p>abdelrahmanmedhatali@gmail.com</p>
+        </button>
+      </div>
+      <footer>
+        <p>© 2023 All rights reserved.</p>
+        <div class="footer-icons">
+          <img src="./assets/icons/linkedin.png" alt="linkedin" />
+          <img src="./assets/icons/facebook.png" alt="facebook" />
+          <img src="./assets/icons/instgram.png" alt="instgram" />
+          <img src="./assets/icons/twitter.png" alt="twitter" />
+        </div>
+      </footer>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const navLinks = document.querySelector(".nav-links");
+
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        navLinks.classList.toggle("open");
+
+        const isOpen = navLinks.classList.contains("open");
+        menuToggle.setAttribute("aria-expanded", isOpen);
+      });
+
+      // Close menu when clicking a navigation link
+      navLinks.querySelectorAll("li").forEach((link) => {
+        link.addEventListener("click", () => {
+          menuToggle.classList.remove("active");
+          navLinks.classList.remove("open");
+          menuToggle.setAttribute("aria-expanded", "false");
+        });
+      });
+    </script>
+  </body>
 </html>
